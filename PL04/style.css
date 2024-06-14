@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: bisque;
+    margin: 20px;
+}
+
+header {
+    width: 100vw;
+    text-align: center;
+    
+    #logoCesae {
+        width: 50%;
+    }
+}
+
+nav, footer {
+    background: gray ;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+span {
+    color: white;
+}
+
+#page {
+    margin: 0 auto; 
+    align-content: center; 
+    max-width: 1180px; 
+    text-align: justify; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+.associados {
+    display: flex; 
+    gap: 50px; 
+    justify-content: center; 
+    margin-top: 20px; 
+    align-items: center;
+}
+
+footer {
+    margin-top: 40px;
+    justify-content: center;
+}
