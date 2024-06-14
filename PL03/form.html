@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CESAE - Form</title>
+</head>
+
+<body>
+
+    <main>
+
+        <header style="width: 100vw;">
+
+            <div style="padding: 0 40px; display: flex; align-items: center; justify-content: space-between;">
+                <nav style="display: flex; gap: 20px;">
+                    <a href="/" target="_blank" rel="noopener noreferrer"
+                        style="text-decoration: none; color: black;">HOME</a>
+                    <a href="/form.html" style="text-decoration: none; color: black;">FORM</a>
+                    <a href="/multimedia.html" style="text-decoration: none;color: black;">MEDIA</a>
+                </nav>
+
+                <a href="https://www.cesaedigital.pt/">
+                    <img src="https://www.cesaedigital.pt/wp-content/uploads/2016/07/logo_cesae-cores_horizontal_header_site.png"
+                        alt="logo cesae digital" width="300px">
+                </a>
+            </div>
+
+            <hr>
+
+        </header>
+
+        <div style="margin: auto; box-sizing: border-box; justify-content: center; max-width: 1080px; padding-top: 100px; max-width: 500px; ">
+
+            <form action="#">
+                <fieldset>
+                    <legend>Formulário de contato CESAE Digital</legend>
+
+                    <div style="display: flex; flex-direction: column; gap: 4px; margin-top: 8px;">
+                        <label for="Nome">
+                            Nome:
+                            <input type="text" placeholder="Insira seu nome" required>
+                        </label>
+
+                        <label for="Email">
+                            Email:
+                            <input type="email" placeholder="exemplo@email.com">
+                        </label>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; margin-top: 15px;">
+                        <label for="Genero">
+                            Genero:
+                        </label>
+
+                        <label for="">
+                            <input type="checkbox">
+                            Masculino
+                        </label>
+
+                        <label for="">
+                            <input type="checkbox">
+                            Feminino
+                        </label>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; margin-top: 15px; gap: 10px;">
+                        <label for="Data">
+                            Data:
+                            <input type="date">
+                        </label>
+
+                        <label for="Turma">
+                            Turma:
+                            <select name="Turma">
+                                <option value="Dev">WebDev & Mobile</option>
+                                <option value="Data">Data Analyst</option>
+                            </select>
+                        </label>
+
+                        <label for="mensagem">
+                            Mensagem:
+                            <textarea name="Mensagem" cols="30" rows="3"
+                                style="margin-top: 10px; resize: none;"></textarea>
+                        </label>
+                    </div>
+
+                    <div style="margin-top: 8px;">
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Enviar</button>
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+        </div>
+
+        <footer style="width: 100vw; text-align: center; margin-top: 300px; display: block; box-sizing: border-box;">
+
+            <hr style="margin-top: 10px;">
+
+            <a href="https://github.com/gabrielbeli" target="_blank"
+                style="text-decoration: none; color: black;">Desenvolvido por Gabriel Beli</a>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
