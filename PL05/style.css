@@ -1,16 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body::-webkit-scrollbar {
     width: 5px;               
   }
   
-  body::-webkit-scrollbar-track {
-    background: bisque;       
-  }
+body::-webkit-scrollbar-track {
+  background: bisque;       
+}
   
-  body::-webkit-scrollbar-thumb {
-    background-color: orange;    
-    border-radius: 20px;
-    border: 1px solid bisque;  
-  }
+body::-webkit-scrollbar-thumb {
+  background-color: orange;    
+  border-radius: 20px;
+  border: 1px solid bisque;  
+}
 
 main {
   text-align: center;
@@ -46,10 +52,10 @@ header {
 
 #hero {
   margin: 72px auto 72px;
+}
 
-  > img {
-    margin-bottom: 72px;
-  }
+#topImg {
+  margin-bottom: 72px;
 }
 
 #moveis {
@@ -81,8 +87,6 @@ p,
   font-size: 14px;
   line-height: 28px;
 }
-
-
 
 #footer {
   position: fixed;
